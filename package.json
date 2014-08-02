@@ -1,0 +1,41 @@
+{
+  "name": "cha-load",
+  "version": "0.1.0",
+  "description": "Automatically load cha and register tasks.",
+  "main": "lib/load.js",
+  "scripts": {
+    "test": "node ./test/load"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chajs/cha-load.git"
+  },
+  "keywords": [
+    "cha",
+    "extension",
+    "load",
+    "tasks"
+  ],
+  "author": "Yuanyan Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chajs/cha-load/issues"
+  },
+  "homepage": "https://github.com/chajs/cha-load",
+  "dependencies": {
+    "findup-sync": "^0.1.3",
+    "multimatch": "^0.3.0"
+  },
+  "devDependencies": {
+    "task-combine": "^0.1.0",
+    "task-copy": "^0.1.1",
+    "task-glob": "^0.1.0",
+    "task-replace": "^0.1.0",
+    "task-request": "^0.1.0",
+    "task-uglifyjs": "^0.1.0",
+    "task-writer": "^0.1.0"
+  },
+  "peerDependencies": {
+    "cha": ">= 0.1.0"
+  }
+}
